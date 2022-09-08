@@ -1,3 +1,11 @@
 # Professional README Generator Starter Code
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Purpose
+A read-me generator that takes user input and writes to a README.md file 
+
+## Built With
+* node.js 
+* Inquirer package
+
+## Contribution
+Made with ❤️ by [bebo]

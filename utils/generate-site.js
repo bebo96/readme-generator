@@ -15,37 +15,35 @@ function generateMarkdown(data) {
 
   const { projectDescription, installationInstructions, usageInformation, contributionGuidelines, testInstructions, projectName, userName, emailAddress } = data;
 
-
-
   return `
   
   # ${projectName}
   ## ${projectDescription}
   ### Table of Contents
-  - [Description] (#projectDescription)
-  - [Installation Instructions] (#installationInstructions)
-  - [Usage Information] (#usageInformation)
-  - [Contribution Guidelines] (#contributionGuidelines)
-  - [Test Instructions] (#testInstructions)
+  - [Description](#projectDescription)
+  - [Installation Instructions](#installationInstructions)
+  - [Usage Information](#usageInformation)
+  - [Contribution Guidelines](#contributionGuidelines)
+  - [Test Instructions](#testInstructions)
   
   
   ## Description
-  - Description: ${projectDescription}
+  - Description:${projectDescription}
 
   ## Installation
-  - Installation: ${installationInstructions}
+  - Installation:${installationInstructions}
 
   ## Usage
-  - Usage: ${usageInformation}
+  - Usage:${usageInformation}
 
   ## Contributing
-  - Contributing: ${contributionGuidelines}
+  - Contributing:${contributionGuidelines}
 
   ## Tests
-  - Tests: ${testInstructions}
+  - Tests:${testInstructions}
 
   ## Questions 
-  Github username: [a link](https://github.com/${userName})
+  Github username: [${userName}](https://github.com/${userName})
   Email Address: Please send an email address to ${emailAddress} with whatever questions you have! 
 `;
 }
@@ -54,3 +52,4 @@ function generateMarkdown(data) {
 module.exports = data => {
   return generateMarkdown(data);
 };
+
