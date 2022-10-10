@@ -1,7 +1,7 @@
 
   
-  # Bebos Project
-  ## this is a project description 
+  # readme generator! 
+  ## This project generates a readme based on user input 
   ### Table of Contents
   - [Description](#projectDescription)
   - [Installation Instructions](#installationInstructions)
@@ -11,20 +11,20 @@
   
   
   ## Description
-  - Description:this is a project description 
+  - Description:This project generates a readme based on user input 
 
   ## Installation
-  - Installation:installation instructions 
+  - Installation:Install npm modules, run "node app.js" on the command line 
 
   ## Usage
-  - Usage:This is usage information 
+  - Usage:N/A
 
   ## Contributing
-  - Contributing:These are contribution guidelines 
+  - Contributing:N/A
 
   ## Tests
-  - Tests:These are the projects test instructions 
+  - Tests:N/A
 
   ## Questions 
   Github username: [bebo96](https://github.com/bebo96)
-  Email Address: Please send an email address to ibim@gmail.com with whatever questions you have! 
+  Email Address: Please send an email address to ibrahim@gmail.com with whatever questions you have! 
